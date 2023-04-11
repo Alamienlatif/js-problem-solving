@@ -1,17 +1,13 @@
 // 1
-function mindGame(points, quantity, gameAdd, gameDivition){
-    const total = (points * quantity + gameAdd)/ gameDivition;
-    const average = total - 5;
-    return average;
+function mindGame(number){
+ let numberMultiplication = number * 3;
+ let numberAdd = numberMultiplication  + 10;
+ let numberDivide = numberAdd / 2;
+ let numberSubtraction = numberDivide - 5;
+ return numberSubtraction;
+
 }
-
-const pointsGame = 5;
-const quantityGame = 3;
-const gameAddGame = 10;
-const gameDivition = 2;
-
-const myAverage = mindGame(pointsGame, quantityGame, gameAddGame, gameDivition)
-console.log(myAverage);
+console.log(mindGame(5));
 
 // 2
 
@@ -54,7 +50,7 @@ for(var i = 0; i < findingBadData.length; i++){
     console.log(number)
 }
 
-// 5
+// 5      23.5
 function  gemsToDiamond(gems21, gems32, gems43){
     const sum = gems21 + gems32 + gems43;
     return sum; 
@@ -64,3 +60,4 @@ const gems21Point = 21 * 50;
 const gems32Point = 32 * 5;
 const gems43Point = 43 * 2;
 var myPoint = gemsToDiamond(gems21Point, gems32Point, gems43Point);
+console.log(gemsToDiamond);
