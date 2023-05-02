@@ -14,18 +14,34 @@
 //        const element = numbers[i];
 //        console.log(element);
 // } 
-s
-i
-x
-e
-l
-A
-// for(let i=0; i<str.length;i++){
+// s
+// i
+// x
+// e
+// l
+// A
+// // for(let i=0; i<str.length;i++){
 //     const element = str[i];
 //     console.log(element);
 // }
 // console.log("---------------consualsesion 4/3/time:1:05minut ---------")
-for(let i=str.length-1; i>=0; i--){
-    const element = str[i];
-    console.log(element)
+// for(let i=str.length-1; i>=0; i--){
+//     const element = str[i];
+//     console.log(element)
+// }
+
+function isLGSeven(number){
+    let myNumber = number;
+    if (typeof number !== 'number') {
+        return "Provide valid Number";
+    }
+    else if(myNumber < 7 ){
+        mySubmission = myNumber - 7;
+        return mySubmission;
+    }
+    else{
+        let numberMultiplication = myNumber * 2;
+        return numberMultiplication;
+    }
 }
+console.log(numberMultiplication)
